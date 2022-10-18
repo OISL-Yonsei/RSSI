@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>RSSI</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<link href="styles/minimal.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-nav">	
+		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+      			<li class="nav-item active"><a href="index.html">Home</a></li>
+    		</ul>
+      	</div>
+    </div>
+</nav> 
+
+<div class="container">
+
+	<div class="row">	
+		<h1><b>Single-shot Temporal Speckle Correlation Imaging Using Rolling Shutter Image Sensors</b></h1>
+		<h5><b><a href="https://cyi.kr">Changyoon Yi</a>, <a href="https://lukael.kr">Jaewoo Jung</a>, Jeongmyo Im, Kyung Chul Lee, <a href="https://neurophotonics.gist.ac.kr/neurophotonics/index.do">Euiheon Chung</a> and <a href="https://biomedia.yonsei.ac.kr">Seung Ah Lee</a></b></h5>
+		<br />
+		<img class="center" src="resources/method.png" style="width:600px"> 
+	</div>
+
+
+	<div class="row">
+		<h3><b>Abstract</b></h3>
+		<p>We propose a novel single-shot wide-field imaging method that maps local temporal intensity decorrelations of dynamic speckle fields. Our method, named rolling shutter speckle imaging (RSSI), utilizes short time intervals between each row of a rolling shutter complementary metal-oxide-semiconductor (RS-CMOS) image sensor to discern fast temporal changes in the speckle field, which otherwise require sequential measurements with high-speed cameras. RSSI generates elongated speckle patterns on an RS-CMOS image sensor and quantifies temporal decorrelations of speckle fields from row-by-row intensity correlations (RICs) within a single image. To quantify the local speckle decorrelation times of the dynamic scattering media, we derived a theoretical model for RIC and verified the model using numerical simulations and flow-phantom experiments. Further, our in vivo imaging results show that RSSI can map the flow rate distributions in the cerebral blood vessels with the correction of static scattering in the tissue, demonstrating that RSSI is a powerful and cost-effective imaging tool for in vivo quantitative blood flow measurements.</p>
+	</div>
+
+	<div class="row">
+		<h3><b>Resources</b></h3>
+		<ul>
+			<li>Open source code on <b><a href="https://github.com/OISL-Yonsei/RSSI">GitHub</a></b></li>
+			<li>Open access PDF and supplemental materials through <b><a href="https://doi.org/10.1364/OPTICA.465361">OPTICA</a></b></li>
+		</ul>
+	</div>
+
+	<div class="row">
+		<h3><b>Conference Papers</b></h3>
+		<p>Changyoon Yi, Kyung Chul Lee, Jaewoo Jung and Seung Ah Lee, “Dynamic Speckle Correlation Imaging Using Rolling Shutter CMOS Image Sensors.” <i>SPIE Photonics West.</i> 2022.</p>
+	</div>
+
+
+</div>
+<nav class="navbar navbar-default">
+</nav>
+
+</body>
+</html>
